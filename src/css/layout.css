@@ -1,0 +1,131 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.scene, .layer {
+  display: block;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.scene {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+.layer {
+  position: absolute !important;
+}
+
+.background {
+  background: #eee url('../img/background.jpg') no-repeat 50% 100%;
+  background-size: cover;
+  position: absolute;
+  width: 110%;
+  left: -5%;
+  top: -5%;
+  bottom: -5%;
+}
+
+.wrapper {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background: #000;
+  opacity: 0.7;
+}
+
+.title {
+  display: inline-block;
+  text-align: center;
+}
+
+.avatar {
+  display: inline-block;
+  width: 100px;
+  margin-top: 4px;
+  position: relative;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%; 
+}
+  
+@media screen and (min-width: 640px) {
+  .title {
+    text-align: right;
+  }
+
+  .bio {
+    max-width: 560px;
+    line-height: 36px;
+    font-size: 25px; 
+  }
+}
+
+.bio {
+  z-index: 2;
+  position: relative;
+  margin: 0 auto 0 auto;
+  width: 100%;
+  max-width: 435px;
+  font-weight: 200;
+  line-height: 30px;
+  border-radius: 6px;
+  font-size: 19px;
+  padding: 0 20px;
+  color: #CCC; 
+}
+
+.bio:hover {
+  cursor: default;
+}
+
+.bio h1 {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: #ddd;
+  text-align: center;
+  margin: 30px 0 10px 0; 
+}
+  
+.bio p {
+  text-align: justify;
+  display: none; }
+    
+@media screen and (min-height: 650px) {
+  .bio p {
+    display: block;
+  } 
+}
+
+.social {
+  z-index: 2;
+  position: relative;
+  margin: 7% auto 0 auto;
+  width: 100%;
+  text-align: center; 
+}

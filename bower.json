@@ -1,0 +1,22 @@
+{
+  "name": "home",
+  "description": "Front page for alechapelain.fr",
+  "main": "index.html",
+  "authors": [
+    "Antoine Le Chapelain"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "parallax": "~2.1.3"
+  }
+}

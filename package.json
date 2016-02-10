@@ -1,0 +1,31 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "Front page for alechapelain.fr",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antoine Le Chapelain",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.7.7",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^2.3.1",
+    "gulp-csso": "^1.0.1",
+    "gulp-filter": "^2.0.2",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-minify-html": "^1.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-todo": "^4.1.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-useref": "^1.1.1",
+    "jshint-stylish": "^2.1.0",
+    "run-sequence": "^1.1.5"
+  }
+}
