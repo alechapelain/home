@@ -78,7 +78,7 @@ body {
   position: relative;
   margin: 0 auto 0 auto;
   width: 100%;
-  max-width: 435px;
+  max-width: 355px;
   font-weight: 200;
   line-height: 30px;
   border-radius: 6px;
@@ -92,13 +92,17 @@ body {
 }
 
 .bio h1 {
-  font-size: 60px;
+  font-size: 40px;
   line-height: 20px;
   line-height: 1;
   letter-spacing: -1px;
   color: #ddd;
   text-align: center;
   margin: 30px 0 10px 0; 
+}
+
+.sub-title {
+  font-size: 30px;
 }
   
 .bio p {
@@ -120,12 +124,8 @@ body {
     display: block;
   }
 }
-    
-@media screen and (min-height: 640px) {
-  .avatar { 
-    display: inline-block;
-  }
 
+@media screen and (min-height: 640px) {
   .bio p {
     font-size: 19px;
   }
@@ -136,12 +136,24 @@ body {
 }
 
 @media screen and (min-width: 640px) and (min-height: 640px) {
+  .bio h1 {
+    font-size: 60px;
+  }
+
+  .sub-title {
+    font-size: 45px;
+  }
+
+  .avatar { 
+    display: inline-block;
+  }
+
   .title {
     text-align: right;
   }
 
   .bio {
-    max-width: 560px;
+    max-width: 435px;
     line-height: 36px;
     font-size: 25px; 
   }
